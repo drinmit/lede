@@ -10,8 +10,8 @@
 name: test2
 
 on:
-  schedule:
-    - cron: 0 20 * * *
+#  schedule:
+#    - cron: 0 20 * * *
   push:
     tags:
       - '*'
